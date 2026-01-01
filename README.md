@@ -1,4 +1,33 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MVC- Model Views & Controllers</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    </style>
+</head>
+<body>
+  <h1>MVC- Model Views & Controllers</h1>
+  <form action="/form-submit" method="POST">
+    Name: <input type="text" name="name" /><br /><br />
+    Age: <input type="number" name="age" /><br /><br />
+    Email: <input type="email" name="email" /><br /><br />
+    Password: <input type="password" name="password" /><br /><br />
+    Phone: <input type="tel" name="phone" /><br /><br />
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+</html><div align="center">
 <a href='https://www.pingcap.com/?utm_source=github&utm_medium=tidb'>
 <img src="docs/tidb-logo.png" alt="TiDB, a distributed SQL database" height=100></img>
 </a>
